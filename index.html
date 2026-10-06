@@ -1,5 +1,133 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow"><title>Jude Ohlson | Websites for local businesses</title>
-<style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f4f1ec;color:#1c1b19;font:17px/1.5 system-ui,sans-serif}
-main{max-width:560px;padding:40px 24px}h1{font-size:40px;line-height:1.05;letter-spacing:-.03em;margin:0 0 16px;font-weight:600}p{color:#5f5b55;margin:0}</style></head>
-<body><main><h1>Jude Ohlson</h1><p>Simple, fast websites for local businesses. Previews on this site are samples made for specific businesses and are not their official sites.</p></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="data:,">
+<title>Jude Ohlson | Websites and social media for local businesses</title>
+<meta name="description" content="Simple, fast websites and done-for-you social media for small local businesses.">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root{--bg:#f4f1ec;--ink:#1a1916;--muted:#6b665e;--rule:#00000017;--block:#e9e4db;--dark:#1a1916;--accent:#2f5bea}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Instrument Sans',system-ui,sans-serif;background:var(--bg);color:var(--ink);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.w{max-width:1240px;margin:0 auto;padding:0 40px}
+.serif{font-family:'Newsreader',Georgia,serif;font-weight:400;letter-spacing:-.015em}
+h1,h2{font-weight:500;letter-spacing:-.035em;text-wrap:balance}
+.label{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.link{display:inline-flex;align-items:center;gap:8px;border-bottom:1px solid currentColor;padding-bottom:2px;font-weight:500;white-space:nowrap}
+.btn{display:inline-flex;align-items:center;height:50px;padding:0 24px;background:var(--ink);color:var(--bg);border-radius:3px;font-weight:600;font-size:15px;white-space:nowrap}
+nav .w{display:flex;justify-content:space-between;align-items:center;height:76px}
+nav .name{font-weight:600;font-size:19px;letter-spacing:-.02em}
+nav ul{display:flex;gap:32px;list-style:none;font-size:15px}
+.hero{padding:96px 0 104px;border-bottom:1px solid var(--rule)}
+.hero h1{font-size:88px;line-height:.98;max-width:1000px}
+.hero h1 .serif{font-style:italic}
+.hero p{font-size:21px;color:var(--muted);max-width:620px;margin:28px 0 36px}
+.hero .ctas{display:flex;gap:28px;align-items:center;flex-wrap:wrap}
+section{padding:104px 0}
+.head{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:44px}
+.head h2{font-size:52px;line-height:1.02;margin-top:12px;max-width:640px}
+.head p{color:var(--muted);max-width:380px}
+.work{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.work a{display:block}
+.work img{aspect-ratio:16/10;object-fit:cover;object-position:top;border:1px solid var(--rule)}
+.work h3{font-size:20px;font-weight:600;letter-spacing:-.02em;margin-top:16px}
+.work span{color:var(--muted);font-size:15px}
+.social{background:var(--block)}
+.posts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.post{background:#fff;border-radius:4px;overflow:hidden}
+.post .top{display:flex;align-items:center;gap:10px;padding:12px 14px;font-size:14px;font-weight:600}
+.post .top i{width:28px;height:28px;border-radius:50%;background:var(--c);display:block}
+.post .pic{position:relative;aspect-ratio:1}
+.post .pic img{width:100%;height:100%;object-fit:cover}
+.post .pic b{position:absolute;left:18px;right:18px;bottom:18px;color:#fff;font-size:26px;line-height:1.08;font-weight:600;letter-spacing:-.02em;text-shadow:0 2px 18px #0008}
+.post .pic:after{content:"";position:absolute;inset:50% 0 0;background:linear-gradient(#0000,#0009)}
+.post .pic b{z-index:1}
+.post p{padding:12px 14px 16px;font-size:14px;color:#3d3a35}
+.price{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.card{border-top:2px solid var(--ink);padding-top:28px}
+.card h3{font-size:22px;font-weight:600;letter-spacing:-.02em}
+.card .amt{font-size:72px;line-height:1;margin:18px 0 6px}
+.card .per{color:var(--muted)}
+.card ul{list-style:none;margin-top:26px;border-top:1px solid var(--rule)}
+.card li{padding:13px 0;border-bottom:1px solid var(--rule);font-size:16px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;counter-reset:s}
+.steps div{border-top:1px solid var(--ink);padding-top:22px}
+.steps div:before{counter-increment:s;content:"0" counter(s);font-size:13px;color:var(--muted)}
+.steps h3{font-size:26px;font-weight:500;letter-spacing:-.025em;margin:18px 0 8px}
+.steps p{color:var(--muted)}
+.end{background:var(--dark);color:var(--bg);padding:112px 0}
+.end h2{font-size:72px;line-height:1;max-width:860px}
+.end p{color:#bdb7ad;font-size:19px;margin-top:22px;max-width:560px}
+footer{background:var(--dark);color:#8f897f;font-size:14px;border-top:1px solid #ffffff1a}
+footer .w{display:flex;justify-content:space-between;padding-top:24px;padding-bottom:24px}
+@media (max-width:900px){
+  .w{padding:0 22px}nav ul{display:none}
+  .hero{padding:56px 0 64px}.hero h1{font-size:48px}.hero p{font-size:18px}
+  section{padding:72px 0}.head{display:block;margin-bottom:28px}.head h2{font-size:36px}.head p{margin-top:12px}
+  .work,.posts,.price,.steps{grid-template-columns:1fr}.posts{gap:20px}
+  .card .amt{font-size:56px}.end{padding:72px 0}.end h2{font-size:42px}
+  footer .w{flex-direction:column;gap:6px}
+}
+</style>
+</head>
+<body>
+<nav><div class="w"><a class="name" href="#">Jude Ohlson</a>
+  <ul><li><a href="#work">Websites</a></li><li><a href="#social">Social media</a></li><li><a href="#pricing">Pricing</a></li></ul>
+  <a class="link" href="#pricing">Pricing →</a></div></nav>
+
+<header class="hero"><div class="w">
+  <div class="label">Websites · Social media</div>
+  <h1 style="margin-top:18px">Look as good online as your work <span class="serif">really is.</span></h1>
+  <p>I build clean, fast websites and run Facebook and Instagram for small local businesses, so you can stay focused on the work.</p>
+  <div class="ctas"><a class="btn" href="#work">See sample sites</a><a class="link" href="#social">Sample social posts →</a></div>
+</div></header>
+
+<section id="work"><div class="w">
+  <div class="head"><div><div class="label">Websites</div><h2>Sample sites</h2></div><p>These are demo sites for made-up businesses. Yours would use your name, services, photos and phone number.</p></div>
+  <div class="work">
+    <a href="demo/maple-and-main-barbers/"><img src="img/maple-and-main-barbers.jpg" alt="Demo barbershop website"><h3>Maple &amp; Main Barbers</h3><span>Demo · Barbershop</span></a>
+    <a href="demo/greenline-lawn-co/"><img src="img/greenline-lawn-co.jpg" alt="Demo lawn care website"><h3>Greenline Lawn Co.</h3><span>Demo · Lawn care</span></a>
+    <a href="demo/northside-detail-co/"><img src="img/northside-detail-co.jpg" alt="Demo detailing website"><h3>Northside Detail Co.</h3><span>Demo · Mobile detailing</span></a>
+  </div>
+</div></section>
+
+<section class="social" id="social"><div class="w">
+  <div class="head"><div><div class="label">Social media</div><h2>Sample posts</h2></div><p>Three posts a week, designed and written for you. You approve everything before it goes out. These samples are for the demo businesses above.</p></div>
+  <div class="posts">
+    <div class="post"><div class="top"><i style="--c:#2f5a2b"></i>Greenline Lawn Co.</div><div class="pic"><img loading="lazy" src="img/post_ss_lawn45.jpg" alt=""><b>Fall cleanup spots are filling up.</b></div><p>Leaves, sticks and beds cleared in one visit. Message us to grab a spot this month.</p></div>
+    <div class="post"><div class="top"><i style="--c:#6e2a26"></i>Maple &amp; Main Barbers</div><div class="pic"><img loading="lazy" src="img/post_ss_salon5.jpg" alt=""><b>Walk-ins welcome today until 6.</b></div><p>Two chairs open this afternoon. Come see us on Main Street.</p></div>
+    <div class="post"><div class="top"><i style="--c:#0d3b66"></i>Northside Detail Co.</div><div class="pic"><img loading="lazy" src="img/post_x_detail0.jpg" alt=""><b>We come to you. Driveway, office, anywhere.</b></div><p>Book a full detail and get on with your day. Link in bio.</p></div>
+    <div class="post"><div class="top"><i style="--c:#2f5a2b"></i>Greenline Lawn Co.</div><div class="pic"><img loading="lazy" src="img/post_ss_lawn22.jpg" alt=""><b>Spring plans open now.</b></div><p>Weekly mowing, same day every week. No contracts.</p></div>
+    <div class="post"><div class="top"><i style="--c:#6e2a26"></i>Maple &amp; Main Barbers</div><div class="pic"><img loading="lazy" src="img/post_ss_salon11.jpg" alt=""><b>Meet the shop.</b></div><p>Three chairs, good music and barbers who remember your usual.</p></div>
+    <div class="post"><div class="top"><i style="--c:#0d3b66"></i>Northside Detail Co.</div><div class="pic"><img loading="lazy" src="img/post_x_detail27.jpg" alt=""><b>Hand wash. Every time.</b></div><p>No brushes, no tunnels. Just careful work by hand.</p></div>
+  </div>
+</div></section>
+
+<section id="pricing"><div class="w">
+  <div class="head"><div><div class="label">Pricing</div><h2>Simple prices</h2></div><p>No contracts. Pay for the website when you're happy with it.</p></div>
+  <div class="price">
+    <div class="card"><h3>Website</h3><div class="amt serif">$150</div><div class="per">one time</div>
+      <ul><li>Works great on phones</li><li>Your services, hours, phone and photos</li><li>Tap-to-call buttons</li><li>Free hosting</li><li>Optional .com address, about $12/year, in your name</li></ul></div>
+    <div class="card"><h3>Social media</h3><div class="amt serif">$199</div><div class="per">per month</div>
+      <ul><li>3 posts a week on Facebook and Instagram</li><li>Designed and written for you</li><li>You approve before anything posts</li><li>Cancel anytime</li></ul></div>
+  </div>
+</div></section>
+
+<section style="padding-top:0"><div class="w">
+  <div class="head"><div><div class="label">How it works</div><h2>Three steps</h2></div></div>
+  <div class="steps">
+    <div><h3>I make a sample</h3><p>A first version of your site or your first week of posts.</p></div>
+    <div><h3>You tell me changes</h3><p>Photos, wording, colors. I fix it.</p></div>
+    <div><h3>It goes live</h3><p>Pay when you're happy. That's it.</p></div>
+  </div>
+</div></section>
+
+<section class="end"><div class="w"><h2>Want one for your business?</h2><p>Reply to my email and tell me about your business. I'll send you a free sample.</p></div></section>
+<footer><div class="w"><span>© 2026 Jude Ohlson</span><span>University Heights, OH</span></div></footer>
+</body>
+</html>
