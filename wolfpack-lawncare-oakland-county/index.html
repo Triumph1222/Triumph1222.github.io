@@ -1,0 +1,98 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WolfPack LawnCare | Oakland County, MI, OH</title>
+<meta name="description" content="Mowing, edging, cleanups and landscaping in Oakland County. Reliable crews, fair prices, free quotes.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f5ef;--ink:#16261b;--muted:#56645a;--acc:#2f7a3e;--card:#ffffff;--light:#16261b;--lightink:#f6f5ef;--onacc:#fff;--d:"Fraunces",Georgia,serif;--line:color-mix(in srgb,var(--ink) 13%,transparent);--r:0}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}img{display:block;width:100%;height:100%;object-fit:cover}
+.wrap{max-width:1200px;margin:0 auto;padding:0 32px}
+.ribbon{background:#111;color:#ddd;font-size:12px;text-align:center;padding:6px 16px;letter-spacing:.03em}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:18px 30px;border-radius:var(--r);font-weight:600;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;white-space:nowrap;transition:background .25s,color .25s,outline-color .25s}
+.p{background:var(--acc);color:var(--onacc);outline:1px solid var(--acc);outline-offset:4px}
+.p:hover{background:transparent;color:var(--acc)}
+.o,.o2{padding:18px 4px;border-radius:0;background:none;border-bottom:1px solid currentColor}
+.o{color:#fff}.o:hover,.o2:hover{color:var(--acc)}
+.call{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;border-left:1px solid rgba(255,255,255,.35);padding-left:24px}.call b{display:block;font:600 17px Inter;letter-spacing:0;text-transform:none}
+.kick{text-transform:uppercase;letter-spacing:.2em;font-size:12px;color:var(--acc);font-weight:700}
+h1,h2{font-family:var(--d);font-weight:700;letter-spacing:-.01em}
+/* hero */
+.hero{position:relative;min-height:760px;color:#fff;display:flex;flex-direction:column;overflow:hidden}
+.hero>img{position:absolute;inset:0;transform:scale(1.03)}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(0,0,0,.82) 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.15) 100%),linear-gradient(0deg,rgba(0,0,0,.55),transparent 40%)}
+nav{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;padding:26px 0}
+.logo{font-family:var(--d);font-size:28px;font-weight:700}
+.links{display:flex;gap:30px;align-items:center;font-size:14.5px}.links a:not(.btn){opacity:.85}
+.links{gap:34px}
+.hc{position:relative;z-index:2;margin:auto 0;padding:40px 0 120px;max-width:680px}
+.hc .kick{color:var(--acc)}
+h1{font-size:clamp(46px,6.4vw,86px);line-height:1.0;margin:20px 0 24px}
+.hc p{font-size:19px;opacity:.88;max-width:540px}
+.ctas{display:flex;gap:34px;align-items:center;margin-top:40px;flex-wrap:wrap}
+.seal{position:absolute;z-index:2;right:6%;bottom:110px;width:136px;height:136px;border-radius:50%;background:var(--acc);color:var(--onacc);display:grid;place-items:center;text-align:center;font-family:var(--d);box-shadow:0 25px 50px -12px rgba(0,0,0,.5);transform:rotate(-8deg)}
+.seal small{display:block;font:700 11px Inter;letter-spacing:.22em}.seal b{font-size:30px;line-height:1.05}
+/* stats */
+.stats{position:relative;z-index:3;margin:-58px auto 0;max-width:1000px;display:grid;grid-template-columns:repeat(3,1fr);background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:0 30px 60px -30px rgba(0,0,0,.45)}
+.stat{padding:28px 10px;text-align:center}.stat+.stat{border-left:1px solid var(--line)}
+.stat b{display:block;font-family:var(--d);font-size:36px;line-height:1.1;color:var(--acc)}.stat span{font-size:14px;color:var(--muted)}
+section{padding:110px 0}
+.sh{display:flex;justify-content:space-between;align-items:end;margin-bottom:46px;gap:20px}
+h2{font-size:clamp(36px,4.2vw,56px);line-height:1.06;margin-top:12px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:28px;transition:transform .2s,border-color .2s}
+.item:hover{transform:translateY(-3px);border-color:var(--acc)}
+.ih{display:flex;justify-content:space-between;gap:12px;align-items:baseline;margin-bottom:8px}
+.item h3{font-size:18px;font-weight:600}.price{color:var(--acc);font-weight:700;font-size:14px;white-space:nowrap}
+.item p{color:var(--muted);font-size:15px}
+.marq{overflow:hidden;border-block:1px solid var(--line);padding:22px 0;white-space:nowrap;font-family:var(--d);font-size:30px;color:var(--muted)}
+.marq div{display:inline-block;animation:m 40s linear infinite}@keyframes m{to{transform:translateX(-50%)}}
+/* about */
+.about{display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:center}
+.ph{position:relative;border-radius:26px;overflow:hidden;aspect-ratio:4/5;box-shadow:0 40px 80px -35px rgba(0,0,0,.55)}
+.about p{font-size:19px;color:var(--muted);margin:20px 0 30px}
+.hours{list-style:none;border-top:1px solid var(--line)}
+.hours li{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--line)}
+.addr{margin-top:18px;color:var(--muted);font-size:15px}
+/* gallery */
+.gal{display:grid;grid-template-columns:1.4fr 1fr 1fr;grid-template-rows:260px 260px;gap:14px}
+.gal figure{border-radius:20px;overflow:hidden}.g0{grid-row:span 2}.g3{grid-column:span 2}
+.gal img{transition:transform .6s}.gal figure:hover img{transform:scale(1.05)}
+/* cta */
+.cta{position:relative;color:#fff;text-align:center;border-radius:30px;overflow:hidden;padding:110px 30px;margin:0 32px}
+.cta>img{position:absolute;inset:0}.cta:after{content:"";position:absolute;inset:0;background:rgba(0,0,0,.62)}
+.cta>*:not(img){position:relative;z-index:2}.cta h2{max-width:780px;margin:12px auto 30px}.cta .ctas{justify-content:center}
+footer{padding:40px 0;color:var(--muted);font-size:13.5px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.mbar{display:none}
+@media (max-width:860px){
+ .wrap{padding:0 18px}.links a:not(.btn){display:none}
+ .hero{min-height:640px}.hc{padding:10px 0 110px}.hc p{font-size:17px}
+ .seal{display:none}
+ .stats{margin:-44px 18px 0}.stat{padding:18px 4px}.stat b{font-size:22px}.stat span{font-size:11.5px}
+ section{padding:70px 0}.sh{flex-direction:column;align-items:start}.grid{grid-template-columns:1fr}
+ .about{grid-template-columns:1fr;gap:34px}.ph{aspect-ratio:4/3}
+ .gal{grid-template-columns:1fr 1fr;grid-template-rows:180px 180px 180px}.g0{grid-row:auto;grid-column:span 2}.g3{grid-column:span 2}
+ .cta{margin:0 12px;padding:70px 20px}.marq{font-size:22px}
+ .mbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:9;border-top:1px solid var(--line)}
+ .mbar a{padding:18px 0;text-align:center;font-size:12.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;background:var(--card);color:var(--ink)}.mbar a+a{background:var(--acc);color:var(--onacc)}body{padding-bottom:58px}
+ .call{border:0;padding:0}.call b{font-size:14px}.call{font-size:0}
+}
+</style></head><body>
+<div class="ribbon">Concept preview made for WolfPack LawnCare by Jude Ohlson · sample photos, prices and hours</div>
+<header class="hero"><img src="img/lawn0_xl.jpg" alt="">
+ <div class="wrap" style="width:100%"><nav><a class="logo" href="#">WolfPack LawnCare</a><div class="links"><a href="#menu">Services</a><a href="#about">About</a><a href="#gallery">Gallery</a><a class="call" href="tel:2485679257">Call us<b>(248) 567-9257</b></a></div></nav></div>
+ <div class="wrap" style="width:100%"><div class="hc"><div class="kick">Oakland County, MI</div><h1>A yard the whole street notices.</h1><p>Mowing, edging, cleanups and landscaping in Oakland County. Reliable crews, fair prices, free quotes.</p>
+ <div class="ctas"><a class="btn p" href="#menu">Get a free quote</a><a class="btn o" href="https://www.google.com/maps/search/?api=1&query=Oakland+County,+MI">Call now</a></div></div></div>
+</header>
+<div class="wrap"><div class="stats"><div class="stat"><b>Free</b><span>quotes</span></div><div class="stat"><b>Weekly</b><span>&amp; bi-weekly plans</span></div><div class="stat"><b>Local</b><span>Oakland County crew</span></div></div></div>
+<section id="menu"><div class="wrap"><div class="sh"><div><div class="kick">Services</div><h2>What we do</h2></div><a class="btn o2" href="tel:2485679257">Questions? Call us</a></div><div class="grid"><div class="item"><div class="ih"><h3>Weekly Mowing</h3><span class="price">plans</span></div><p>Mow, edge, trim and blow every visit.</p></div><div class="item"><div class="ih"><h3>Spring &amp; Fall Cleanup</h3><span class="price">seasonal</span></div><p>Leaves, beds and debris hauled away.</p></div><div class="item"><div class="ih"><h3>Mulch &amp; Beds</h3><span class="price">quote</span></div><p>Fresh mulch and crisp bed edges.</p></div><div class="item"><div class="ih"><h3>Hedge &amp; Shrub Trimming</h3><span class="price">quote</span></div><p>Clean shapes, healthy growth.</p></div><div class="item"><div class="ih"><h3>Aeration &amp; Seeding</h3><span class="price">seasonal</span></div><p>Thicker, greener grass.</p></div><div class="item"><div class="ih"><h3>Landscaping</h3><span class="price">quote</span></div><p>New plants, rock and refreshes.</p></div></div></div></section>
+<div class="marq"><div>Weekly Mowing ✦ Spring &amp; Fall Cleanup ✦ Mulch &amp; Beds ✦ Hedge &amp; Shrub Trimming ✦ Aeration &amp; Seeding ✦ Landscaping ✦ Weekly Mowing ✦ Spring &amp; Fall Cleanup ✦ Mulch &amp; Beds ✦ Hedge &amp; Shrub Trimming ✦ Aeration &amp; Seeding ✦ Landscaping ✦ Weekly Mowing ✦ Spring &amp; Fall Cleanup ✦ Mulch &amp; Beds ✦ Hedge &amp; Shrub Trimming ✦ Aeration &amp; Seeding ✦ Landscaping ✦ Weekly Mowing ✦ Spring &amp; Fall Cleanup ✦ Mulch &amp; Beds ✦ Hedge &amp; Shrub Trimming ✦ Aeration &amp; Seeding ✦ Landscaping ✦ </div></div>
+<section id="about"><div class="wrap about"><div class="ph"><img src="img/lawn2_xl.jpg" alt=""></div>
+<div><div class="kick">About</div><h2>We show up. Every time.</h2><p>No missed weeks and no guessing when we&#x27;ll be there. Just a clean, sharp yard you&#x27;re proud to come home to.</p>
+<ul class="hours"><li><span>Service area</span><span>Oakland County &amp; nearby</span></li><li><span>Quotes</span><span>Free</span></li><li><span>Phone</span><span>(248) 567-9257</span></li></ul><div class="addr">Oakland County, MI · (248) 567-9257</div></div></div></section>
+<section id="gallery" style="padding-top:0"><div class="wrap"><div class="sh"><div><div class="kick">Gallery</div><h2>Come see for yourself</h2></div></div><div class="gal"><figure class="g0"><img src="img/lawn1_xl.jpg" alt=""></figure><figure class="g1"><img src="img/ss_lawn55_xl.jpg" alt=""></figure><figure class="g2"><img src="img/lawn3_xl.jpg" alt=""></figure><figure class="g3"><img src="img/x_yard0_xl.jpg" alt=""></figure></div></div></section>
+<div class="cta"><img src="img/ss_lawn8_xl.jpg" alt=""><div class="kick">See you soon</div><h2>A yard the whole street notices.</h2><div class="ctas"><a class="btn p" href="tel:2485679257">Get a free quote</a><a class="btn o" href="https://www.google.com/maps/search/?api=1&query=Oakland+County,+MI">Directions</a></div></div>
+<div class="wrap"><footer><span>© 2026 WolfPack LawnCare · Oakland County, MI</span><span>Site by Jude Ohlson</span></footer></div>
+<div class="mbar"><a href="https://www.google.com/maps/search/?api=1&query=Oakland+County,+MI">Directions</a><a href="tel:2485679257">Call now</a></div>
+</body></html>
